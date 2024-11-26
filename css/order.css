@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* kiosk.css */
+
+body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #012211;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 250px;
+    height:250px;
+    margin-bottom:  20px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 60x;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: #01542B;
+    border: 3px;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+p {
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/order.css">
+    <title>café de paris </title>
+</head>
+<body>
+    <h1>Bienvenue, C'est le café de paris </h1>
+
+    <h2>Menu</h2>
+    <div class="menu container">
+        <div class="item">
+            <img src="https://img.vogue.co.kr/vogue/2022/03/style_62398d360e43e-930x930.jpg"
+            alt="Espresso" class="menuimg">
+            <button class="button" data-name="Espresso" data-price="2.5">Espresso <br> 2.5 € </button>
+        </div>
+
+        <div class="item">
+            <img src="https://mblogthumb-phinf.pstatic.net/MjAyNDA0MDlfNDYg/MDAxNzEyNjQ0NzE4Njkx.bKdqlwjCepQ_y_3H7RJ1xtkb50nYUiDxAtHe5mCvfnMg.4oCmtk8PCyQhAZpkD1is7E8uOpowIGM3G59I1LcQFfEg.JPEG/IMG_1187.JPG?type=w800"
+            alt="Americano" class="menuimg">
+            <button class="button" data-name="Americano" data-price="2.5">Americano <br>3 € </button>
+        </div>
+
+        <div class="item">
+            <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[110569]_20210415143035989.jpg"
+            alt="Latte" class="menuimg">
+            <button class="button" data-name="Latte" data-price="2.5">Latte <br> 3.5 € </button>
+         </div>
+        
+    </div>   
+
+    <h2>Cart</h2>
+    <div class="cart"></div>
+    <p>Total : <span id="total"> 0 </span> €</p>
+    <script src="../js/kiosk.js" defer></script>
+</body>
+</html>
